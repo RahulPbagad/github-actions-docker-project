@@ -1,3 +1,13 @@
+
+# Practical 3: Build Docker Image Using GitHub Actions
+# Scenario
+
+# Whenever code is pushed to the main branch:
+
+# Checkout the repository
+# Build the Docker image
+# Tag it as myapp:latest
+# Verify the image by listing Docker images
 name: docker-build
 
 on : 
